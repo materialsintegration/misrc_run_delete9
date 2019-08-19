@@ -31,4 +31,6 @@ workflow id はsite_id（0詰めなし） + workflow_idとする。
 * 削除は論理削除で、DBには、deletedに１が、deletion_idにcreatorと同じIDが、deletion_timeに実行時に取得したタイムスタンプが格納される。
 * 対象となるworkflow idおよび条件に合致するランが無い場合は、実行されない。
 
+## 参考記事
+[【Python入門】MySQLを使ってみよう](https://www.sejuku.net/blog/53995)
 以上
